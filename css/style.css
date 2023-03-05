@@ -1,0 +1,115 @@
+/* Start Global Rules */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222;
+    min-height: 100%;
+    min-width: 100%;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nerko One", cursive;
+    color: #fff !important;
+}
+
+a,
+p,
+span {
+    color: #fff !important;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+    color: #09c !important;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* End Global Rules */
+
+/* Start Games Section */
+
+.games header img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.games nav {
+    background-color: rgb(58, 73, 123) !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.games nav .navbar-toggler {
+    font-size: 1.1rem;
+}
+
+.games nav a img {
+    width: 2rem;
+}
+
+.home .card {
+    filter: grayscale(0.7);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #222;
+}
+
+.home .card:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+
+/* End Games Section */
+
+/* Start Details Section */
+
+.details {
+    min-height: 100vh;
+    background-color: #222;
+}
+
+/* End Details Section */
